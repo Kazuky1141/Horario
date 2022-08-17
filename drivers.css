@@ -1,0 +1,48 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #0496FF;
+    width: 97%;
+    padding: 10px;
+    margin: auto;
+    position: fixed;
+}
+header p{
+    font-size: 1.6em;
+    font-weight: bold;
+}
+header .menu{
+    margin: 0;
+    padding: 25px 30px;
+}
+header .container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 0;
+}
+header a{
+    padding: 5px 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+header a:hover{
+    color: rgb(255, 255, 255);
+}
+
+hr{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0;
+}
